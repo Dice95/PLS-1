@@ -1,0 +1,47 @@
+body
+{
+	background: url("img16.jpg") no-repeat;
+}
+
+.login span
+{
+	font-size: 60px;
+	font-family: Gabriola, "Open-Sans", Monospace;
+	text-shadow: 5px 5px 10px darkgreen;
+}
+
+.form input
+{
+	font-size: 20px;
+	width: 320px;
+	padding: 15px;
+	margin-top: 15px;
+	border: none;
+	background: transparent;
+}
+
+p
+{
+	border-bottom: 3px solid black;
+}
+
+p:hover
+{
+	border-bottom: 3px solid #fcac45;
+}
+
+button
+{
+	padding: 10px;
+	border: 2px solid black;
+	background: transparent;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "Open-Sans", Monospace;
+	cursor: pointer;
+}
+
+button:hover
+{
+	text-shadow: 3px 3px 10px darkgreen;
+}

@@ -1,0 +1,235 @@
+body {
+  background: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  color: white;
+  background: #1a1a1a;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.header .text-header {
+  width: 400px;
+  -webkit-transform: translate(430px, 200px);
+          transform: translate(430px, 200px);
+  color: #dcddde;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.29px;
+}
+.header h1, .header p {
+  padding: 0px;
+  margin: 0px;
+}
+.header p {
+  color: #00aeef;
+}
+.header .logo {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url("logo.png") -60px no-repeat;
+  background-size: cover;
+  -webkit-transform: translate(30%, 68%);
+          transform: translate(30%, 68%);
+}
+
+.container {
+  background-color: aliceblue;
+}
+
+.main {
+  margin-top: 12%;
+}
+.main h3 {
+  font-size: 18px;
+  color: #00aeef;
+  text-transform: uppercase;
+}
+.main ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  color: grey;
+}
+.main li {
+  padding: 6px 0px;
+}
+
+.left_side {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-right: 2px solid #dcddde;
+  border-right-width: 100%;
+}
+
+.block {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #dcddde;
+}
+.block ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*    BLOCK 2    */
+.block_2 {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #dcddde;
+}
+.block_2 .inner_block_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+}
+.block_2 .right_lines {
+  margin-left: 25px;
+  margin-top: 66px;
+}
+.block_2 .right_lines progress {
+  margin-bottom: 15px;
+}
+
+/*    BLOCK 3     */
+.block_3 {
+  font-size: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #dcddde;
+}
+.block_3 .left_text {
+  display: table-column;
+}
+.block_3 .inner_block_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.block_3 .right_lines {
+  width: 100px;
+  margin-left: 35px;
+  margin-top: 66px;
+}
+.block_3 .right_lines progress {
+  margin-bottom: 15px;
+}
+
+/* BLOCK 4 */
+.block_4 .inner_block_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+}
+.block_4 .contacts {
+  margin-left: 55px;
+}
+.block_4 .contacts p {
+  color: grey;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.right_block_1 p {
+  font-size: 16px;
+  color: grey;
+  border-bottom: 2px solid #dcddde;
+  padding-bottom: 20px;
+}
+
+.right_block_2 {
+  color: grey;
+  border-bottom: 2px solid #dcddde;
+  padding-bottom: 20px;
+}
+.right_block_2 .edu_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.right_block_2 .edu_block h4 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.right_block_2 .edu_block .rb_left {
+  width: 300px;
+}
+.right_block_2 .edu_block p {
+  font-size: 16px;
+  color: grey;
+}
+.right_block_2 .rb_right {
+  -webkit-transform: translate(100px, 0px);
+          transform: translate(100px, 0px);
+  width: 300px;
+  text-align: right;
+}
+.right_block_2 p {
+  font-size: 16px;
+  color: grey;
+}
+
+.right_block_3 {
+  font-family: "Montserrat", "sans-serif";
+  color: grey;
+  border-bottom: 2px solid #dcddde;
+  padding-bottom: 20px;
+}
+.right_block_3 h4 {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.right_block_3 .exp_block p {
+  font-size: 16px;
+  color: grey;
+}
+
+.reference {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.main_ref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reference2 {
+  text-align: right;
+  margin-left: 200px;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.reference2 h3 {
+  visibility: hidden;
+}
+
+.footer {
+  height: 40px;
+  background: black;
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+  html, body, container {
+    width: 815px;
+  }
+
+  .left_side{display: none;}
+}

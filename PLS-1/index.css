@@ -1,0 +1,110 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	font-family: "Open-Sans", Monospace;
+}
+
+.container
+{
+	width: 100%;
+	height: 100vh;
+	background: url(IMG/img16.jpg) no-repeat;
+}
+
+.container h1
+{
+	margin-left: 10%;
+	padding-top: 6%;
+	font-size: 60px;
+	font-family: Gabriola, "Open-Sans", Monospace;
+	text-shadow: 5px 5px 10px darkgreen;
+}
+
+.container h1 a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.block
+{
+	width: 30%;
+	height: auto;
+	margin-left: 6.5%;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.block input
+{
+	margin-top: 18px;
+	margin-bottom: 18px;
+	margin-left: 2px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Gabriola, Monospace;
+	border-bottom: 3px solid black;
+	width: 280px;
+	transform: scale(1);
+}
+
+.block input:hover
+{
+	transform: scale(1.5);
+	transition: 0.5s;
+	border-bottom: 3px solid #fcac45;
+}
+
+button
+{
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 2px solid black;
+	background: transparent;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "Open-Sans", Monospace;
+	cursor: pointer;
+}
+
+button:hover
+{
+	text-shadow: 3px 3px 10px darkgreen;
+}
+
+.block form a
+{
+	padding: 10px;
+	border: 2px solid black;
+	background: transparent;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "Open-Sans", Monospace;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.block form a:hover
+{
+	text-shadow: 3px 3px 10px darkgreen;
+}
+
+.success
+{
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 15%;
+	font-family: "Open-Sans", Monospace;
+	font-family: Gabriola, "sans-serif";
+	font-size: 50px;
+	text-shadow: 5px 5px 10px black, -5px -5px 10px green;
+	color: white;
+}

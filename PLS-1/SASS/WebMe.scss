@@ -1,0 +1,64 @@
+.line
+{
+	color: grey;
+	opacity: .7;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.attention p
+{
+	font-family: "Open-Sans", monospace;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.main_header
+{
+	background: -webkit-linear-gradient(left, yellow, red);
+}
+.logo
+{
+	font-family: Gabriola, monospace;
+	font-size: 25px;
+	text-shadow: 5px 5px 10px darkgreen;
+	a 
+	{
+		text-decoration: none;
+		color: black;
+	}
+}
+
+.logo_2
+{
+	border-right: 1px solid grey;
+	img 
+	{
+		width: 230px;
+	}
+}
+
+.links
+{
+	padding-left: 30%;
+	margin-top: 6%;
+	a
+	{
+		padding: 10px;
+		margin-left: 15px;
+		border: 1px solid black;
+		border-radius: 10px;
+		text-decoration: none;
+		color: black;
+		font-family: "open-sans", monospace;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	a:hover
+	{
+		color: white;
+		background: black;
+		opacity: .7;
+	}
+}
